@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "Hello World! Jai Sriram $now"
+        run: now=$(date);echo "Hello World! Jai Sriram $now"
